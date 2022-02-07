@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style type="text/css">
+    iframe {
+    
+    width: 100%;
+}
+
+.output {
+    background: #eee;
+}
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+ <div >
+  
+   <iframe id="test"
+    title="Inline Frame Example"
+    width="100%"
+    height="1000px"
+    οnlοad="this.style.height=document.body.clientHeight-84" 
+    src="https://metaversesolomonislands.readyplayer.me/avatar" scrolling="no" frameborder="0">
+</iframe>
+
+    </div>
+    <script type="text/javascript">
+      function init() {
+var totalHeight = window.innerHeight || document.body.clientHeight
+var testObj= document.getElementById('test')
+var halfHeight= totalHeight
+testObj.style.height = halfHeight+ 'px'
+}
+
+    </script>
+    
+</body>
+</html>
